@@ -46,6 +46,7 @@
           
           shellHook = ''
             export PYTHONPATH=$PWD:$PYTHONPATH
+            echo Hello to pyvisa
           '';
         };
       }
